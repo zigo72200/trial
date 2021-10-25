@@ -1,8 +1,17 @@
-.post {
-  background-color: black;
-  color: #0000ff;
+.btn {
+  border: none;
+  padding: 0.25rem 1.25rem;
 }
 
-.post-link {
-  color: inherit;
+.link {
+  text-decoration: none;
+  color: navy;
+}
+/* Напиши свой код под этой строкой */
+.btn {
+  color: red;
+}
+
+.link {
+  font-weight: 700;
 }
