@@ -1,17 +1,4 @@
-.btn {
-  border: none;
-  padding: 0.25rem 1.25rem;
-}
-
-.link {
-  text-decoration: none;
-  color: navy;
-}
-/* Напиши свой код под этой строкой */
-.btn {
-  color: red;
-}
-
-.link {
-  font-weight: 700;
+.text {
+  font-size: 16px;
+  line-height: 1,5;
 }
