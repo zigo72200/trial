@@ -1,3 +1,24 @@
-.blok ~ .sektion  {
-  color: red;
+:root {
+  --primary: burlywood;
+  --accent: cadetblue;
+}
+.items {
+  list-style: none;
+  display: flex;
+}
+.item {
+  margin: 0.25rem;
+  display: block;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: var(--primary);
+  color: var(--accent);
+}
+.icon {
+  --icon-color: currentColor;
+  fill: var(--icon-color);
+}
+.item:hover {
+  background-color: var(--accent);
+  color: var(--primary);
 }
