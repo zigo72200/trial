@@ -1,24 +1,39 @@
-:root {
-  --primary: burlywood;
-  --accent: cadetblue;
+@charset "UTF-8";
+body {
+  margin: 0;
 }
-.items {
-  list-style: none;
-  display: flex;
+
+.text {
+  max-width: 960px;
+  min-width: 320px;
+  margin: 0 auto;
 }
-.item {
-  margin: 0.25rem;
+
+.hero {
+  background-color: var(--color-second);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../img/Header-img.png");
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/Header-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   display: block;
-  padding: 0.5rem;
-  border-radius: 50%;
-  background-color: var(--primary);
-  color: var(--accent);
+  max-width: 100%;
+  height: auto;
 }
-.icon {
-  --icon-color: currentColor;
-  fill: var(--icon-color);
+
+.hero__box {
+  text-align: center;
+  padding-top: 118px;
+  padding-bottom: 118px;
 }
-.item:hover {
-  background-color: var(--accent);
-  color: var(--primary);
+
+.hero__title {
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  color: var(--whitу-color);
 }
+/*# sourceMappingURL=styles.css.map */
