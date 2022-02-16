@@ -1,38 +1,13 @@
 body {
-  margin: 0;
+  margin: 24px;
 }
 
-.text {
-  max-width: 960px;
-  min-width: 320px;
-  margin: 0 auto;
-}
-
-.hero {
-  background-color: var(--color-second);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url('../img/Header-img.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-.hero__box {
-  text-align: center;
-  padding-top: 118px;
-  padding-bottom: 118px;
-}
-
-.hero__title {
-  font-weight: 900;
-  font-size: 15px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.06em;
+.usernames li {
+  padding: 8px;
+  border: 2px dashed tomato;
   text-transform: uppercase;
-  margin-bottom: 30px;
+}
 
-  color: var(--whitу-color);
+.usernames li:not(:last-child) {
+  margin-bottom: 12px;
 }
